@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS equiposfutbol
+--CREATE DATABASE IF NOT EXISTS equiposfutbol
 CREATE TABLE IF NOT EXISTS LIGA
 (
     id     INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -96,6 +96,18 @@ VALUES ('Santiago Bernabéu', 81044, 1),
     ('Bruno Fernandes', 8),
     ('Mohamed Salah', 9),
     ('Cole Palmer', 10);
+
+INSERT INTO JUGADOR (nombre, equipo_id)
+VALUES ('Vinicius Jr', 1),
+       ('Robert Lewandowski', 2),
+       ('Alex Baena', 3),
+       ('Giovani Lo Celso', 4),
+       ('Gaya', 5),
+       ('Erling Haaland', 6),
+       ('Bukayo Saka', 7),
+       ('Bruno Fernandes', 8),
+       ('Mohamed Salah', 9),
+       ('Cole Palmer', 10);
 
 
 INSERT INTO JUGADOR_LIGA (jugador_id, liga_id)
